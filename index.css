@@ -62,16 +62,16 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: -2
+    z-index: -2;
 }
 
 .profile-card__top {
     background-image: url(./images/bg-pattern-card.svg);
     /* background-color: lightblue; */
-    min-width: 15vw;
-    max-width: 20vw;
-    min-height: 10vh;
-    max-height: 10vh;
+    min-width: 30rem;
+    max-width: 50rem;
+    min-height: 12rem;
+    max-height: 12rem;
     border-radius: 15px 15px 0px 0px;
 }
 
@@ -90,16 +90,16 @@ h3 {
 
 .profile-card__picture--img {
     background-image: url(./images/image-victor.jpg);
-    position: absolute;
-    margin: -2.5vw;
-    min-width: 5vw;
-    max-width: 3vw;
-    min-height: 10vh;
-    max-height: 15vh;
+    /* position: absolute; */
+    margin: -5vw;
+    min-width: 10rem;
+    max-width: 10rem;
+    min-height: 10rem;
+    max-height: 10rem;
     border: solid 5px white;
     /* border: solid 3px black; */
     /* z-index: 3; */
-    border-radius: 100px;
+    border-radius: 120px;
     align-items: center;
     vertical-align: bottom;
     justify-content: center;
@@ -111,10 +111,10 @@ h3 {
     flex-direction: column;
     justify-content: end;
     background-color: white;
-    min-width: 15vw;
-    max-width: 15vw;
-    min-height: 15vh;
-    max-height: 15vh;
+    min-width: 30rem;
+    max-width: 15rem;
+    min-height: 15rem;
+    max-height: 15rem;
     border-bottom: solid 1px;
     z-index: 0; 
     border: solid 2px yellow;
@@ -141,25 +141,25 @@ h3 {
 }
 
 .profile-card__bottom--left {
-    min-width: 5vw;
-    max-width: 3vw;
-    min-height: 10vh;
-    max-height: 3vh;
+    min-width: 10rem;
+    max-width: 5rem;
+    min-height: 10rem;
+    max-height: 3rem;
     border: solid 3px black;
 }
 .profile-card__bottom--middle {
-    min-width: 5vw;
+    min-width: 10rem;
     max-width: 3vw;
-    min-height: 10vh;
+    min-height: 10rem;
     max-height: 3vh;
     border: solid 3px black;
     font-size: 2rem;
 }
 
 .profile-card__bottom--right {
-    min-width: 5vw;
+    min-width: 10rem;
     max-width: 3vw;
-    min-height: 10vh;
+    min-height: 10rem;
     max-height: 3vh;
     border: solid 3px black;
 }
